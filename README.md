@@ -33,24 +33,23 @@ This project combines a Tkinter frontend with a FastAPI backend, following a mod
 ## Project Architecture
 
 WorkSphere/
-│
-├── run_app.py # App launcher (frontend + backend)
-├── main.py # FastAPI backend entry point
-├── main_app.py # Tkinter frontend
-│
-├── WorkSphere/ # API modules
-│ ├── detective_api.py
-│ ├── employee_api.py
-│ ├── todo_api.py
-│ └── controller_api.py
-│
-├── Games
-│ ├── python_detective_game.py
-│ └── rps.py
-│
-└── Utilities
-├── password_gen.py
-└── file_manager_api.py
+
+- run_app.py # App launcher (frontend + backend)
+- main.py # FastAPI backend entry point
+- main_app.py # Tkinter frontend
+
+- WorkSphere/ # API modules
+- detective_api.py
+- employee_api.py
+- todo_api.py
+- controller_api.py
+- Games
+- python_detective_game.py
+- rps.py
+
+- Utilities
+- password_gen.py
+- file_manager_api.py
 
 
 ---
